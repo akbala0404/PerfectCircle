@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0752EC29F2E1B4006521EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0752EB29F2E1B4006521EE /* AppDelegate.swift */; };
+		FE0752EE29F2E1B4006521EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0752ED29F2E1B4006521EE /* SceneDelegate.swift */; };
+		FE0752F029F2E1B4006521EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0752EF29F2E1B4006521EE /* ViewController.swift */; };
+		FE0752F329F2E1B4006521EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0752F129F2E1B4006521EE /* Main.storyboard */; };
+		FE0752F629F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0752F429F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld */; };
+		FE0752F829F2E1B8006521EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0752F729F2E1B8006521EE /* Assets.xcassets */; };
+		FE0752FB29F2E1B8006521EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0752F929F2E1B8006521EE /* LaunchScreen.storyboard */; };
+		FE07530629F2E1B8006521EE /* PerfectCircleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07530529F2E1B8006521EE /* PerfectCircleGameTests.swift */; };
+		FE07531029F2E1B8006521EE /* PerfectCircleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07530F29F2E1B8006521EE /* PerfectCircleGameUITests.swift */; };
+		FE07531229F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07531129F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE07530229F2E1B8006521EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0752E029F2E1B4006521EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0752E729F2E1B4006521EE;
+			remoteInfo = PerfectCircleGame;
+		};
+		FE07530C29F2E1B8006521EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0752E029F2E1B4006521EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0752E729F2E1B4006521EE;
+			remoteInfo = PerfectCircleGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0752E829F2E1B4006521EE /* PerfectCircleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectCircleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0752EB29F2E1B4006521EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0752ED29F2E1B4006521EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE0752EF29F2E1B4006521EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE0752F229F2E1B4006521EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0752F529F2E1B4006521EE /* PerfectCircleGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerfectCircleGame.xcdatamodel; sourceTree = "<group>"; };
+		FE0752F729F2E1B8006521EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0752FA29F2E1B8006521EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0752FC29F2E1B8006521EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE07530129F2E1B8006521EE /* PerfectCircleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectCircleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE07530529F2E1B8006521EE /* PerfectCircleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectCircleGameTests.swift; sourceTree = "<group>"; };
+		FE07530B29F2E1B8006521EE /* PerfectCircleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectCircleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE07530F29F2E1B8006521EE /* PerfectCircleGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectCircleGameUITests.swift; sourceTree = "<group>"; };
+		FE07531129F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectCircleGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0752E529F2E1B4006521EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0752FE29F2E1B8006521EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE07530829F2E1B8006521EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0752DF29F2E1B4006521EE = {
+			isa = PBXGroup;
+			children = (
+				FE0752EA29F2E1B4006521EE /* PerfectCircleGame */,
+				FE07530429F2E1B8006521EE /* PerfectCircleGameTests */,
+				FE07530E29F2E1B8006521EE /* PerfectCircleGameUITests */,
+				FE0752E929F2E1B4006521EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0752E929F2E1B4006521EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0752E829F2E1B4006521EE /* PerfectCircleGame.app */,
+				FE07530129F2E1B8006521EE /* PerfectCircleGameTests.xctest */,
+				FE07530B29F2E1B8006521EE /* PerfectCircleGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0752EA29F2E1B4006521EE /* PerfectCircleGame */ = {
+			isa = PBXGroup;
+			children = (
+				FE0752EB29F2E1B4006521EE /* AppDelegate.swift */,
+				FE0752ED29F2E1B4006521EE /* SceneDelegate.swift */,
+				FE0752EF29F2E1B4006521EE /* ViewController.swift */,
+				FE0752F129F2E1B4006521EE /* Main.storyboard */,
+				FE0752F729F2E1B8006521EE /* Assets.xcassets */,
+				FE0752F929F2E1B8006521EE /* LaunchScreen.storyboard */,
+				FE0752FC29F2E1B8006521EE /* Info.plist */,
+				FE0752F429F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld */,
+			);
+			path = PerfectCircleGame;
+			sourceTree = "<group>";
+		};
+		FE07530429F2E1B8006521EE /* PerfectCircleGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE07530529F2E1B8006521EE /* PerfectCircleGameTests.swift */,
+			);
+			path = PerfectCircleGameTests;
+			sourceTree = "<group>";
+		};
+		FE07530E29F2E1B8006521EE /* PerfectCircleGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE07530F29F2E1B8006521EE /* PerfectCircleGameUITests.swift */,
+				FE07531129F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift */,
+			);
+			path = PerfectCircleGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0752E729F2E1B4006521EE /* PerfectCircleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE07531529F2E1B8006521EE /* Build configuration list for PBXNativeTarget "PerfectCircleGame" */;
+			buildPhases = (
+				FE0752E429F2E1B4006521EE /* Sources */,
+				FE0752E529F2E1B4006521EE /* Frameworks */,
+				FE0752E629F2E1B4006521EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCircleGame;
+			productName = PerfectCircleGame;
+			productReference = FE0752E829F2E1B4006521EE /* PerfectCircleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE07530029F2E1B8006521EE /* PerfectCircleGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE07531829F2E1B8006521EE /* Build configuration list for PBXNativeTarget "PerfectCircleGameTests" */;
+			buildPhases = (
+				FE0752FD29F2E1B8006521EE /* Sources */,
+				FE0752FE29F2E1B8006521EE /* Frameworks */,
+				FE0752FF29F2E1B8006521EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE07530329F2E1B8006521EE /* PBXTargetDependency */,
+			);
+			name = PerfectCircleGameTests;
+			productName = PerfectCircleGameTests;
+			productReference = FE07530129F2E1B8006521EE /* PerfectCircleGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE07530A29F2E1B8006521EE /* PerfectCircleGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE07531B29F2E1B8006521EE /* Build configuration list for PBXNativeTarget "PerfectCircleGameUITests" */;
+			buildPhases = (
+				FE07530729F2E1B8006521EE /* Sources */,
+				FE07530829F2E1B8006521EE /* Frameworks */,
+				FE07530929F2E1B8006521EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE07530D29F2E1B8006521EE /* PBXTargetDependency */,
+			);
+			name = PerfectCircleGameUITests;
+			productName = PerfectCircleGameUITests;
+			productReference = FE07530B29F2E1B8006521EE /* PerfectCircleGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0752E029F2E1B4006521EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FE0752E729F2E1B4006521EE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FE07530029F2E1B8006521EE = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FE0752E729F2E1B4006521EE;
+					};
+					FE07530A29F2E1B8006521EE = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FE0752E729F2E1B4006521EE;
+					};
+				};
+			};
+			buildConfigurationList = FE0752E329F2E1B4006521EE /* Build configuration list for PBXProject "PerfectCircleGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0752DF29F2E1B4006521EE;
+			productRefGroup = FE0752E929F2E1B4006521EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0752E729F2E1B4006521EE /* PerfectCircleGame */,
+				FE07530029F2E1B8006521EE /* PerfectCircleGameTests */,
+				FE07530A29F2E1B8006521EE /* PerfectCircleGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0752E629F2E1B4006521EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0752FB29F2E1B8006521EE /* LaunchScreen.storyboard in Resources */,
+				FE0752F829F2E1B8006521EE /* Assets.xcassets in Resources */,
+				FE0752F329F2E1B4006521EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0752FF29F2E1B8006521EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE07530929F2E1B8006521EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0752E429F2E1B4006521EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0752F029F2E1B4006521EE /* ViewController.swift in Sources */,
+				FE0752EC29F2E1B4006521EE /* AppDelegate.swift in Sources */,
+				FE0752EE29F2E1B4006521EE /* SceneDelegate.swift in Sources */,
+				FE0752F629F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0752FD29F2E1B8006521EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE07530629F2E1B8006521EE /* PerfectCircleGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE07530729F2E1B8006521EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE07531229F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift in Sources */,
+				FE07531029F2E1B8006521EE /* PerfectCircleGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE07530329F2E1B8006521EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0752E729F2E1B4006521EE /* PerfectCircleGame */;
+			targetProxy = FE07530229F2E1B8006521EE /* PBXContainerItemProxy */;
+		};
+		FE07530D29F2E1B8006521EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0752E729F2E1B4006521EE /* PerfectCircleGame */;
+			targetProxy = FE07530C29F2E1B8006521EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0752F129F2E1B4006521EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0752F229F2E1B4006521EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0752F929F2E1B8006521EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0752FA29F2E1B8006521EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE07531329F2E1B8006521EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE07531429F2E1B8006521EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE07531629F2E1B8006521EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L5YRGU8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectCircleGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astanaitedu.kz.PerfectCircleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE07531729F2E1B8006521EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L5YRGU8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectCircleGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astanaitedu.kz.PerfectCircleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE07531929F2E1B8006521EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L5YRGU8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astanaitedu.kz.PerfectCircleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectCircleGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PerfectCircleGame";
+			};
+			name = Debug;
+		};
+		FE07531A29F2E1B8006521EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L5YRGU8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astanaitedu.kz.PerfectCircleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectCircleGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PerfectCircleGame";
+			};
+			name = Release;
+		};
+		FE07531C29F2E1B8006521EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L5YRGU8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astanaitedu.kz.PerfectCircleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerfectCircleGame;
+			};
+			name = Debug;
+		};
+		FE07531D29F2E1B8006521EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L5YRGU8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astanaitedu.kz.PerfectCircleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerfectCircleGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0752E329F2E1B4006521EE /* Build configuration list for PBXProject "PerfectCircleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE07531329F2E1B8006521EE /* Debug */,
+				FE07531429F2E1B8006521EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE07531529F2E1B8006521EE /* Build configuration list for PBXNativeTarget "PerfectCircleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE07531629F2E1B8006521EE /* Debug */,
+				FE07531729F2E1B8006521EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE07531829F2E1B8006521EE /* Build configuration list for PBXNativeTarget "PerfectCircleGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE07531929F2E1B8006521EE /* Debug */,
+				FE07531A29F2E1B8006521EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE07531B29F2E1B8006521EE /* Build configuration list for PBXNativeTarget "PerfectCircleGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE07531C29F2E1B8006521EE /* Debug */,
+				FE07531D29F2E1B8006521EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE0752F429F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE0752F529F2E1B4006521EE /* PerfectCircleGame.xcdatamodel */,
+			);
+			currentVersion = FE0752F529F2E1B4006521EE /* PerfectCircleGame.xcdatamodel */;
+			path = PerfectCircleGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE0752E029F2E1B4006521EE /* Project object */;
+}
