@@ -10,13 +10,13 @@
 		FE0752EC29F2E1B4006521EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0752EB29F2E1B4006521EE /* AppDelegate.swift */; };
 		FE0752EE29F2E1B4006521EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0752ED29F2E1B4006521EE /* SceneDelegate.swift */; };
 		FE0752F029F2E1B4006521EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0752EF29F2E1B4006521EE /* ViewController.swift */; };
-		FE0752F329F2E1B4006521EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0752F129F2E1B4006521EE /* Main.storyboard */; };
 		FE0752F629F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0752F429F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld */; };
 		FE0752F829F2E1B8006521EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0752F729F2E1B8006521EE /* Assets.xcassets */; };
 		FE0752FB29F2E1B8006521EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0752F929F2E1B8006521EE /* LaunchScreen.storyboard */; };
 		FE07530629F2E1B8006521EE /* PerfectCircleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07530529F2E1B8006521EE /* PerfectCircleGameTests.swift */; };
 		FE07531029F2E1B8006521EE /* PerfectCircleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07530F29F2E1B8006521EE /* PerfectCircleGameUITests.swift */; };
 		FE07531229F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07531129F2E1B8006521EE /* PerfectCircleGameUITestsLaunchTests.swift */; };
+		FE07532029F2E65D006521EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FE07531F29F2E65D006521EE /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		FE0752EB29F2E1B4006521EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0752ED29F2E1B4006521EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE0752EF29F2E1B4006521EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE0752F229F2E1B4006521EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE0752F529F2E1B4006521EE /* PerfectCircleGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerfectCircleGame.xcdatamodel; sourceTree = "<group>"; };
 		FE0752F729F2E1B8006521EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0752FA29F2E1B8006521EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE07532029F2E65D006521EE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,6 @@
 				FE0752EB29F2E1B4006521EE /* AppDelegate.swift */,
 				FE0752ED29F2E1B4006521EE /* SceneDelegate.swift */,
 				FE0752EF29F2E1B4006521EE /* ViewController.swift */,
-				FE0752F129F2E1B4006521EE /* Main.storyboard */,
 				FE0752F729F2E1B8006521EE /* Assets.xcassets */,
 				FE0752F929F2E1B8006521EE /* LaunchScreen.storyboard */,
 				FE0752FC29F2E1B8006521EE /* Info.plist */,
@@ -146,6 +145,9 @@
 			dependencies = (
 			);
 			name = PerfectCircleGame;
+			packageProductDependencies = (
+				FE07531F29F2E65D006521EE /* SnapKit */,
+			);
 			productName = PerfectCircleGame;
 			productReference = FE0752E829F2E1B4006521EE /* PerfectCircleGame.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +220,9 @@
 				Base,
 			);
 			mainGroup = FE0752DF29F2E1B4006521EE;
+			packageReferences = (
+				FE07531E29F2E65D006521EE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = FE0752E929F2E1B4006521EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +241,6 @@
 			files = (
 				FE0752FB29F2E1B8006521EE /* LaunchScreen.storyboard in Resources */,
 				FE0752F829F2E1B8006521EE /* Assets.xcassets in Resources */,
-				FE0752F329F2E1B4006521EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE0752F129F2E1B4006521EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE0752F229F2E1B4006521EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE0752F929F2E1B8006521EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +442,6 @@
 				INFOPLIST_FILE = PerfectCircleGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +469,6 @@
 				INFOPLIST_FILE = PerfectCircleGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE07531E29F2E65D006521EE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE07531F29F2E65D006521EE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE07531E29F2E65D006521EE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FE0752F429F2E1B4006521EE /* PerfectCircleGame.xcdatamodeld */ = {
